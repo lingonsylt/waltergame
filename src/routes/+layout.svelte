@@ -6,7 +6,7 @@
 	let { children } = $props();
 
 	let keys = [];
-	keyEvents = {};
+	let keyEvents = {};
 
 	function handleKeyDown(e) {
 		keys.push(e.key);
