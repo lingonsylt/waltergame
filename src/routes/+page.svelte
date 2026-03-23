@@ -44,17 +44,19 @@
 	}
 </script>
 
-<canvas
-	bind:this={godotCanvas}
-	id="godot-canvas"
-	tabindex="-1"
-	width="960"
-	style="
+<body>
+	<canvas
+		bind:this={godotCanvas}
+		id="godot-canvas"
+		tabindex="-1"
+		width="960"
+		style="
             width: 100vw;
             height: 100vh;
             background: url('godotengine.png') center / cover;
         "
-></canvas>
+	></canvas>
+</body>
 
 <style>
 	body {
